@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>QRify.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS & BS Styles Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- BS Script links -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navSelector">
+      <a class="navbar-brand" href="#">QRify.com</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section2">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section3">Sign Up</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class="contain">
+      <div class="wrapper">
+        <header>
+          <h1>QR Code Generator</h1>
+          <p>Paste a url or enter text to create QR code</p>
+        </header>
+        <div class="formx">
+          <input type="text" spellcheck="false" placeholder="Enter text or url">
+          <button>Generate QR Code</button>
+        </div>
+        <div class="qr-code">
+          <img src="" alt="qr-code">
+        </div> 
+      </div>
+    </div>
+
+    <div id="section2" class="xyz">
+      <br><br>
+      <h2>ABOUT:</h2>
+      
+      
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="2000">
+          <div class="carousel-inner">
+            <!-- <div class="carousel-item active">
+              <img src="img1.jpg" class="d-block w-100" alt="...">
+          </div> -->
+          <div class="carousel-item active">
+            <img src="/img/img2.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/img3.jpg" class="d-block w-100 carousel-img">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/img4.jpg" class="d-block w-100 carousel-img">
+          </div>
+        </div>
+      
+    </div>
+    <p>QRify is a tool that is used to generate different types of QR Codes. Depending on your purpose. QRify is so versatile, that it is able to store a variety of information depending on your needs. It can store a URL to make it easier for you to open a page on the web with just a scan. It can also store contact details so that you don’t have to manually type the name, phone number, and email address to save it to your phone.</p>
+  </div>
+
+  <div id="section3" class="xy"> 
+    
+    <div class="login-page">
+      <div class="form">
+          <h2>Login/SignUp</h2>
+          <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>
+          <form class="login-form">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+        </div>
+      </div>
+
+      
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="/js/script.js"></script>
+  </body>
+</html>
